@@ -27,6 +27,7 @@
                     nav__link--anchor 
                     link__hover-effect 
                     link__hover-effect--black
+                    click
                     ">Projects</a>
                 </li>
                 <li class="nav__link">
@@ -34,6 +35,7 @@
                     nav__link--anchor 
                     link__hover-effect 
                     link__hover-effect--black
+                    click
                     ">Contact</a>
                 </li>
                 <li class="nav__link">
@@ -41,6 +43,7 @@
                     nav__link--anchor 
                     link__hover-effect 
                     link__hover-effect--black
+                    click
                     "><i class="fas fa-adjust"></i></a>
                 </li>
             </ul>
@@ -53,18 +56,56 @@
                     I'm a <b class="orange"> Frontend Software Engineer </b> with a strong passion for experiences and growth! <br> Here's more <b class="orange"> about me!</b>
                 </p>
                 <div class="social__list">
-                    <a href="" class="social__link">
+                    <a href="https://google.com" target="_blank" class="social__link click">
                         <i class="fas fa-adjust fa-linkedin-in"></i>
                     </a>
-                    <a href="" class="social__link">
+                    <a href="#" class="social__link click">
                         <i class="fas fa-adjust fa-github"></i>
                     </a>
-                    <a href="" class="social__link">
+                    <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
                         <i class="fas fa-adjust fa-file-pdf"></i>
                     </a>
                 </div>
             </div>
         </header>
+        <button class="mail__btn click">
+            <i class="fas fa-envelope"></i>
+        </button>
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click"></div>
+        </a>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">
+                    Here are some of my <span class="orange">projects!</span>
+                    <ul class="project__list">
+                        <li class="project">
+                            <div class="project__wrapper">
+                                <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                                <div class="project__wrapper--bg"></div>
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        Car Sales Projects</h3>
+                                    </h3>
+                                    <h4 class="project__description--sub-title">
+                                        Html, CSS, JavsSCript, Vue, Vuex
+                                    </h4>
+                                    <p class="project__decsription--links">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum corrupti debitis esse pariatur sed consectetur alias unde, assumenda praesentium sequi.</p>
+                                      <a href="#" class="project__description--link">
+                                        <i class="fas fa-adjust fa-github"></i>
+                                      <a href="#" class="project__description--link">
+                                        <i class="fas fa-adjust fa-link"></i>
+                                      </a>  
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </h1>
+            </div>
+        </div>
     </section>
 </body>
 </html>
